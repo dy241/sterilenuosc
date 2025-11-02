@@ -1,3 +1,6 @@
+# multimomentum QKE code without lepton asymmetry
+
+
 import numpy as np
 import scipy
 from scipy.integrate import solve_ivp

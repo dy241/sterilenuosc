@@ -1,3 +1,7 @@
+# This code switches from the QKEs to the Dodelson-Widrow approximation after the lepton asymmetry reaches a small value (1e-5)
+# Valid only for the normal hierarchy
+# Not as well-commented as the precession_la.py file
+
 import numpy as np
 import scipy
 from scipy.integrate import solve_ivp
@@ -5,8 +9,6 @@ import time
 import matplotlib.pyplot as plt
 
 from constants_functions import *
-
-# long term goals: make sure mm is working correctly, compare with dw, then add neutrino-antineutrino asym
 
 # bounds: https://arxiv.org/pdf/1112.3319.pdf
 # https://iopscience.iop.org/article/10.1088/1742-6596/481/1/012005/pdf

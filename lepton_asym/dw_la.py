@@ -1,3 +1,5 @@
+# Dodelson-Widrow code, not adapted to include lepton asymmetry
+
 import numpy as np
 import scipy
 from scipy.integrate import solve_ivp
